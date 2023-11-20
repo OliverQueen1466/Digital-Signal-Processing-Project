@@ -1,0 +1,15 @@
+function exe2_2()
+figure(5)
+% t=0:0.01:1;
+%  rn=randn(1,length(t));rn(1:20)=0;
+% y=10*cos(2*pi*t)+10*cos(2*pi*t*2)+10*cos(3*pi*t*3)+rn;
+% Y1=fft(y);
+fp=4;fc=14;As=3;Ap=1;Fs=100;% settings for filter
+wc=2*pi*fc/Fs; wp=2*pi*fp/Fs;
+wdel=wc-wp;
+beta=0.112*(As-1);% the shape factor used in beta
+N=ceil((As-0.5)/2.285/wdel);
+wn= kaiser(N+1,beta); % returns an L-point Kaiser window with shape factor beta.
+ws=(wp+wc)/2/pi;
+b=fir1(N,ws,wn);%design a kaiser Window-based FIR filter
+freqz(b,1);
