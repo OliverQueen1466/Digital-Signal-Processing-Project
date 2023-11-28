@@ -36,6 +36,7 @@ noise_gen.m file creates a signal with 'sin' and 'cos' function. Then a noise is
   <img src="https://github.com/OliverQueen1466/Storage_Image/blob/main/digital_pj/frequency_ample.png" alt="image2" width="400">
 </div>
 
+
 <p align="center">Frequency response of the sample signal</p>
 
 ### Step 2: Choose IIR/FIR to filter noise 
