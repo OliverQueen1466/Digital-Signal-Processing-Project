@@ -32,8 +32,8 @@ Explain how to run the automated tests for this system
 noise_gen.m file creates a signal with 'sin' and 'cos' function. Then a noise is added thhrough 'randn' function
 
 <div style="display:inline-block">
-  <img src="https://github.com/OliverQueen1466/Storage_Image/blob/main/digital_pj/samplesignal.png" alt="image1" width="400">
-  <img src="https://github.com/OliverQueen1466/Storage_Image/blob/main/digital_pj/frequency_ample.png" alt="image2" width="400">
+  <img src="https://github.com/OliverQueen1466/Storage_Image/blob/main/digital_pj/samplesignal.png" alt="image1" width="500">
+  <img src="https://github.com/OliverQueen1466/Storage_Image/blob/main/digital_pj/frequency_ample.png" alt="image2" width="500">
 </div>
 
 
